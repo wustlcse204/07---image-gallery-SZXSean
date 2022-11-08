@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title> Image Gallery</title>
+    <script type="text/javascript" src="javascript.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1> Image Gallery</h1>
+    </div>
+
+    <div class="img-row">
+        <div class="img-column">
+            <img class="image" src="Images/1.jpg" alt="image01" onclick="magnify(this)" img-index="0">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/2.jpg" alt="image02" onclick="magnify(this)" img-index="1">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/3.jpg" alt="image03" onclick="magnify(this)" img-index="2">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/4.jpg" alt="image04" onclick="magnify(this)" img-index="3">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/5.jpg" alt="image05" onclick="magnify(this)" img-index="4">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/6.jpg" alt="image06" onclick="magnify(this)" img-index="5">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/7.jpg" alt="image07" onclick="magnify(this)" img-index="6">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/8.jpg" alt="image08" onclick="magnify(this)" img-index="7">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/9.jpg" alt="image09" onclick="magnify(this)" img-index="8">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/10.jpg" alt="image10" onclick="magnify(this)" img-index="9">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/11.jpg" alt="image11" onclick="magnify(this)" img-index="10">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/12.jpg" alt="image12" onclick="magnify(this)" img-index="11">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/13.jpg" alt="image13" onclick="magnify(this)" img-index="12">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/14.jpg" alt="image14" onclick="magnify(this)" img-index="13">
+        </div>
+        <div class="img-column">
+            <img class="image" src="Images/15.jpg" alt="image15" onclick="magnify(this)" img-index="14">
+        </div>
+        </div>
+    </div>
+    <div id="enlarged">
+        <div id="ui">
+            <span class="closeImg" onclick="closeImg(this)">&times;</span>
+            <img id="magnified-img" style="width:100%">
+            <span id="previousImg">&lt;
+            </span>
+            <span id="nextImg">&gt;</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
